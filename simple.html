@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> TRAVELLING PLACES </title>
+<STYLE type="text/css">
+    *{padding:0;margin:0;box-sizing:border-box;}
+    header {
+        width:100%;
+        height:100vh;
+        background:linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.2)),
+                     url('octanet2.jpg');
+     
+        background-size:cover;
+        font-family:arial black;
+    }
+    nav{
+        width:100%;
+        height:100px;
+        color:white;
+        display:flex;
+        justify-content:space-around;
+        align-items: center;
+    }
+    .main-logo{
+    font-size:2em;
+    letter-spacing: 2px;
+}
+    .menu-options a{
+        text-decoration: none;
+        color:white;
+        padding: 10px 20px;
+        position:relative;
+    }
+    .menu-options a:before{
+            content:'';
+            position:absolute;
+            top: 0;
+            left: 0;
+            width:0%;
+            height: 100%;
+            border-bottom:2px solid orange;
+            transition: 0.5s linear;
+    }
+    .menu-options a:hover:before{
+        width:90%;
+    }
+    .signup a{
+        text-decoration: none;
+        color:white;
+        padding: 10px 20px;
+        font-size:20px;
+        background:  orange;
+        border-radius:10px;
+        transition:0.5s;
+    }
+    .signup a:hover{
+        background:transparent;
+        border:1px solid orange;
+    }
+    .h-text{
+        max-width:650px;
+        position:absolute;
+        top:50%;
+        left:50%;
+        transform:translate(-50%,-50%);
+        color:white;
+
+    }
+    .h-text span{
+        letter-spacing:5px;
+    }
+    .h-text h1{
+        font-size:3em;
+    }
+    .h-text a{
+        text-decoration: none;
+        background:  orange;
+        color:white;
+        padding: 10px 20px;
+        border-radius:10px;
+    } 
+    .h-text a:hover{
+        background:transparent;
+        border:1px solid orange;
+        transition: 0.5s;
+    }
+</STYLE>
+</head>
+<body>
+    
+<header>
+    <nav>
+        <div class="main-logo"> TRAVELLER </div>
+         <div class="menu-options">
+            <a href="#">HOME</a>
+            <a href="#">PLACES</a>
+            <a href="#">SEASON OFFERS</a>
+            <a href="#">OUR CONNECTIONS</a>
+            <a href="#">SUPPORT</a>
+         </div>
+         <div class="signup">
+            <a href="#">SIGN-UP</a>
+        </div>
+    </nav>
+    <section class="h-text">
+        <span>WELCOME</span>
+        <h1>INTERNATIONAL TRAVELLING AGENCY</h1>
+        <BR>
+        <a href="#">START YOUR BOOKING</a>
+    </section>
+</header>
+</body>
+</html>
